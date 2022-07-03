@@ -1,0 +1,137 @@
+body{
+	background-color:grey;
+	font-family: 'century Gothic', calibri, serif;
+	font-size: 13px;
+	margin: 0px
+	padding: 0px; 
+}
+
+h1{
+	font-family: algerian;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: left ;
+}
+header{
+	height: 50px;
+}
+footer{
+	font-size: 18px;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
+}
+nav {
+	width: 100%;
+	background-color: #424558;
+}
+nav ul{
+	margin: 0px
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-ind:hover{
+	border-top: 5px solid rgb(174, 95, 238);
+	background-color: rgba(248, 233, 15, 0.15);
+}
+.menu-pro:hover{ 
+	border-top: 5px solid #4f09f1;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-loi:hover{
+	border-top: 5px solid pink;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-ins :hover{
+	border-top: 5px solid forestgreen;
+	background-color: rgba(228, 77, 38, 0.15);
+}
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+
+}
+
+@media screen and (max-width: 100px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+
+}
+marquee {
+	font-family: time new roman;
+	width: 100%;
+	background-color: #C5C5C5
+	
+}
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.sec{
+	margin: 0px 10%;
+}
+.left{
+	float: left;
+	width: 30%;
+}
+.right{
+	float: left;
+	width: 70%;
+}
+section{
+	width: 70%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.sec{
+	margin: 0px 10px;
+}
+.img{
+	float: left;
+	width: 30%;
+}
+.right{
+	float: left;
+	width: 7o%;
+}
+.cleft, .cright, .sousleft, .sousright{
+	width: 50%;
+	float: left;
+}
+.sec::after, .exp::after, .reco::after{
+	content: "";
+	display: table;
+	clear: both;
+}
